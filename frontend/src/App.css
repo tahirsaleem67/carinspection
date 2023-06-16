@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  main{
+    flex: 1 0 auto;
+  }
+  .main_body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, a, p, li, ul {
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  .error{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+  }

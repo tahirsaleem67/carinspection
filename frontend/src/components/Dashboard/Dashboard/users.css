@@ -1,0 +1,21 @@
+.user_row{
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+    box-shadow: 1px 1px 1px 5px whitesmoke;
+    border-radius: 10px;
+}
+.user_row  td{
+    border: 1px solid rgb(221, 221, 221);
+    padding: 1.5rem 0.5rem;
+    border-bottom: 1px solid rgb(165, 164, 164) !important;
+}
+.user_row .pagination{
+    position: absolute;
+    bottom: 2px;
+    left: 40px;
+}
+td{
+    padding: 1rem 1rem;
+    
+}

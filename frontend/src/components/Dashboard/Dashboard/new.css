@@ -1,0 +1,75 @@
+.recent{
+          min-height: 250px;
+          background: rgba(217, 217, 217, 0.58);
+          border: 1px solid white;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
+          /* backdrop-filter: blur(6px); */
+          border-radius: 17px;
+          cursor: pointer;
+          transition: all 0.5s;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          font-weight: 15px !important;
+          color: black;
+          transition: all linear 0.3s;
+      }
+      .recent:hover {
+        border: 1px solid black;
+        transform: scale(1.05);
+      }
+      
+      .recent:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+      }
+  
+      .new_row button {
+          width:fit-content ;
+          display: flex;
+          align-items: center;
+          font-family: inherit;
+          font-weight: 500;
+          font-size: 17px;
+          padding: 0.8em 1.3em 0.8em 0.9em;
+          color: white;
+          background: #ad5389;
+          background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+          border: none;
+          letter-spacing: 0.05em;
+          border-radius: 16px;
+        }
+        
+        .new_row button svg {
+          margin-right: 3px;
+          transform: rotate(30deg);
+          transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+        }
+        
+        .new_row button span {
+          transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+        }
+        
+        .new_row button:hover svg {
+          transform: translateX(5px) rotate(90deg);
+        }
+        
+        .new_row button:hover span {
+          transform: translateX(7px);
+        }
+        .tick{
+          /* border: 1px solid red; */
+          width: fit-content;
+          height:fit-content;
+          padding: 0.5rem 1rem;
+          border-radius:40px;
+          font-size: 30px;
+          color: black;
+        }
+        .tick:hover{
+          background-color: red;
+          color: white;
+        }.recent-clicked {
+          background-color: red;
+          color: white;
+        }
+        

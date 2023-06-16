@@ -1,0 +1,24 @@
+.about-hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../navbar/bg-1.jpg');
+    position: relative;
+}
+
+.about-hero-section .heading {
+    background-color: rgb(0, 0, 0, 0.5);
+    min-height: 50vh;
+}
+
+.workheading {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.disc {
+    margin-top: 3rem;
+    text-align: center;
+}

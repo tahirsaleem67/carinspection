@@ -1,0 +1,31 @@
+.inspectionButton button{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem 1rem !important;
+    background-color: #00008B;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.inspectionButton button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all linear 0.3s;
+}
+.inspection-form label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.inspection-form input, select{
+    border: 1px solid lightgray;
+    outline: none;
+}
+.inspection-form select, input{
+    height: 40px;
+    width: 100%;
+}
+.inspection-form input:focus{
+    /* border: none ; */
+    outline: none;
+}

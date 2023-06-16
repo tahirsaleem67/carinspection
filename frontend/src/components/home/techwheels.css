@@ -1,0 +1,126 @@
+.hero-heading {
+    color: yellow;
+}
+
+.hero-heading ul {
+    margin-bottom: 2.5rem;
+}
+
+.hero-heading span {
+    color: #fff;
+}
+
+.hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/src/components//navbar/civic.jpeg');
+}
+
+.hero-overlay {
+    /* background-color: rgba(236, 235, 235, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 80px 0 50px 0;
+}
+
+.hero-heading {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Museo Sans, sans-serif;
+}
+
+.hero-heading span {
+    font-weight: normal;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffff;
+    line-height: 2;
+    font-weight: 500;
+}
+
+ul li a:hover {
+    color: #ffff;
+}
+
+.btn-s {
+    background-color: #bd0a20;
+    color: white;
+    border-color: #bd0a20;
+    font-size: 16px;
+    border: 2px solid #bd0a20;
+    padding: 15px 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-s:hover {
+    background-color: transparent;
+    color: #ffff;
+    transition: 2s;
+}
+
+.hover-div {
+    border-radius: 5px;
+    padding-bottom: 5px;
+    transition: s;
+}
+
+.hover-div:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.teamheading {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    color: black;
+}
+
+.ourteam {
+    padding: 80px 0 50px 0;
+}
+
+/* end */
+
+.contectheading {
+    font-size: 22px;
+    font-weight: normal;
+    margin-left: 3rem;
+}
+
+.contect2heading {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.icondiv {
+    padding: 1rem;
+    text-align: center;
+}
+
+.icondiv i {
+    color: red;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: rgb(226, 225, 225);
+    padding: 1.5rem;
+}
+
+.icondivdisc {
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+    text-align: center;
+}
+.contect-section{
+    padding: 80px 0 50px 0;
+}

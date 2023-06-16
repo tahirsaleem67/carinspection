@@ -1,0 +1,16 @@
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav li a{
+    color: black !important;
+    font-size: 18px;
+    padding-left: 33px !important;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-toggler{
+    background-color: black;
+}
+.image1{
+    width: 10rem;
+}
